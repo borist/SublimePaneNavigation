@@ -15,9 +15,7 @@ SublimePaneNavigation is available for installed through [Package Control](http:
 * Select "Package Control: Install Package" and  wait while Package Control fetches the latest package list.
 * Then, start typing "SublimePaneNavigation" and select it from the list when it appears (restarting Sublime Text 2 is not necessary).
 
-Otherwise, you can install SublimePaneNavigation with or without git. **With git**: Clone the repository in your Sublime Text "Packages" directory. **Without git**: Download the latest source from [GitHub](https://github.com/borist/SublimePaneNavigation) and copy the folder folder to your Sublime Text "Packages" directory.
-
-    git clone https://github.com/SublimeLinter/SublimeLinter.git
+Otherwise, you can install SublimePaneNavigation with or without git. **With git**: Clone the repository in your Sublime Text "Packages" directory (`git clone https://github.com/borist/SublimePaneNavigation.git`). **Without git**: Download the latest source from [GitHub](https://github.com/borist/SublimePaneNavigation) and copy the folder folder to your Sublime Text "Packages" directory.
 
 The "Packages" directory is located at:
 
