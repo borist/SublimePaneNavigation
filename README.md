@@ -15,6 +15,24 @@ SublimePaneNavigation is available for installed through [Package Control](http:
 * Select "Package Control: Install Package" and  wait while Package Control fetches the latest package list.
 * Then, start typing "SublimePaneNavigation" and select it from the list when it appears (restarting Sublime Text 2 is not necessary).
 
+Otherwise, you can install SublimePaneNavigation with git. Clone the repository in your Sublime Text "Packages" directory:
+
+    git clone https://github.com/SublimeLinter/SublimeLinter.git
+
+The "Packages" directory is located at:
+
+    * OS X:
+
+            ~/Library/Application Support/Sublime Text 2/Packages/
+
+    * Linux:
+
+            ~/.config/sublime-text-2/Packages/
+
+    * Windows:
+
+            %APPDATA%/Sublime Text 2/Packages/
+
 Usage
 -----
 There are four key bindings associated with this plugin (note that in the descriptions, "next" and "previous" refer to the order in which the tabs/panes appear in the window, not based on recency as is the default in Sublime Text 2):
