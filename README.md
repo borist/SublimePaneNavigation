@@ -9,10 +9,11 @@ SublimePaneNavigation
 Installation
 ------------
 SublimePaneNavigation is available for installed through [Package Control](http://wbond.net/sublime_packages/package_control/installation) for Sublime Text 2. The advantage of using this method is that Package Control will automatically keep SublimeLinter up to date with the latest version. To install it with Package Control:
-    * Make sure you have Package Control installed, instructions available at http://wbond.net/sublime_packages/package_control/installation
-    * Once you install Package Control, restart Sublime Text 2 and bring up the Command Palette with `cmd+shift+P` (on Mac OS X) or `ctrl+shift+P` (on Windows or Linux).
-    * Select "Package Control: Install Package" and  wait while Package Control fetches the latest package list.
-    * Then, start typing "SublimePaneNavigation" and select it from the list when it appears (restarting Sublime Text 2 is not necessary).
+
+* Make sure you have Package Control installed, instructions available at http://wbond.net/sublime_packages/package_control/installation
+* Once you install Package Control, restart Sublime Text 2 and bring up the Command Palette with `cmd+shift+P` (on Mac OS X) or `ctrl+shift+P` (on Windows or Linux).
+* Select "Package Control: Install Package" and  wait while Package Control fetches the latest package list.
+* Then, start typing "SublimePaneNavigation" and select it from the list when it appears (restarting Sublime Text 2 is not necessary).
 
 Usage
 -----
