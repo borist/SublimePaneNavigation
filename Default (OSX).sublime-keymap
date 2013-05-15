@@ -1,4 +1,5 @@
 [
+    // Pane Navigation
     {
         "keys": ["ctrl+]"],
         "command": "pane_navigation",
@@ -9,6 +10,8 @@
         "command": "pane_navigation",
         "args": {"direction": -1}
         },
+
+    // Modified Tab Navigation
     {
         "keys": ["ctrl+tab"],
         "command": "next_view_in_pane"
