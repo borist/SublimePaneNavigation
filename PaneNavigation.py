@@ -20,7 +20,9 @@ class NextViewInPaneCommand(sublime_plugin.TextCommand):
     """
     Switch to the next tab in the active pane, in the order that the
     tabs are open in the pane, cycling to the first tab if called on the
-    last tab.
+    last tab. Note that this is different than the "next_view" function
+    available in the ST2 API because it only cycles through tabs in the
+    *active pane* rather than through all tabs in the current window.
     """
     def run(self, view):
         change_tab(self, view, 1)
@@ -30,7 +32,9 @@ class PrevViewInPaneCommand(sublime_plugin.TextCommand):
     """
     Switch to the previous tab in the active pane, in the order that the
     tabs are open in the pane, cycling to the first tab if called on the
-    last tab.
+    last tab. Note that this is different than the "prev_view" function
+    available in the ST2 API because it only cycles through tabs in the
+    *active pane* rather than through all tabs in the current window.
     """
     def run(self, view):
         change_tab(self, view, -1)
