@@ -1,0 +1,19 @@
+[
+    {
+        "keys": ["ctrl+]"],
+        "command": "pane_navigation",
+        "args": {"direction": 1}
+        },
+    {
+        "keys": ["ctrl+["],
+        "command": "pane_navigation",
+        "args": {"direction": -1}
+        },
+    {
+        "keys": ["ctrl+tab"],
+        "command": "next_view_in_pane"
+        },
+    {
+        "keys": ["ctrl+shift+tab"],
+        "command": "prev_view_in_pane" }
+]
