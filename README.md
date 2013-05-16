@@ -1,10 +1,11 @@
 SublimePaneNavigation
 =====================
 
-"SublimePaneNavigation" is a plugin for the Sublime Text 2 editor that provides increased keyboard navigation between tabs and split panes (when using multiple split panes in a window). This plugin primarly does 2 things:
+"SublimePaneNavigation" is a plugin for the Sublime Text 2 editor that provides increased keyboard navigation between tabs and split panes (when using multiple split panes in a window). This plugin primarly does 3 things:
 
 1. **Tab Navigation:** Changes the `ctrl+tab` and `ctrl+shift+tab` key bindings to cycle through the tabs in the **active pane** in the order that they appear in the pane (as opposed to in order of recency, as is the default); note that this is unlike the built in behavior for `cmd+shift+]` and `cmd+shift+[` for a mac (`alt+shift+]` and `alt+shift+]` for Windows or Linux), which cycle through the tabs in the active window, across all split pane.
 2. **Split Pane Navigation:** Adds key bindings for `ctrl+]` and `ctrl+[` to cycle through the multiple split panes open in a window (if there are multiple split panes).
+3. **Sending Tabs To Other Panes:** Adds key bindings for `ctrl+shift+left` and `ctrl+shift+right` to send tabs from their current pane to the next/previous panes (if there are multiple split panes in a window).
 
 Installation
 ------------
@@ -39,6 +40,8 @@ There are four key bindings associated with this plugin (note that in the descri
 * `ctrl+shift+tab`: cycle to the previous tab in the active pane
 * `ctrl+]`: cycle to the next pane in the active window
 * `ctrl+[`: cycle to the previous pane in the active window
+* `ctrl+shift+left`: send the current tab to the next pane in the active window
+* `ctrl+shift+right`: send the current tab to the previous pane in the active window
 
 Configuring
 -----------

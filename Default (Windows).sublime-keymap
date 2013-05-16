@@ -18,5 +18,9 @@
         },
     {
         "keys": ["ctrl+shift+tab"],
-        "command": "prev_view_in_pane" }
+        "command": "prev_view_in_pane" },
+
+    // Key bindings to send tabs between open panes
+    { "keys": ["ctrl+shift+left"], "command": "move_to_group", "args": { "group": 0 } },
+    { "keys": ["ctrl+shift+right"], "command": "move_to_group", "args": { "group": 1 } }
 ]
