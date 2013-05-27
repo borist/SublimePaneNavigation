@@ -45,4 +45,4 @@ There are four key bindings associated with this plugin (note that in the descri
 
 Configuring
 -----------
-If you would like part of the available functionality (for example, if you only want the split pane navigation), simply comment out the key bindings for the unwanted functionality. Additionally, if you would like to change the key bindings, simply edit the "Key Bindings" file available in the preferences menu: `Preferences->Package Settings->SublimePaneNavigation->Key Bindings - Default`.
+If you would like part of the available functionality (for example, if you only want the split pane navigation), simply comment out the key bindings for the unwanted functionality. Additionally, if you would like to change the key bindings, simply edit the "Key Bindings" file available in the preferences menu: `Preferences->Package Settings->Pane Navigation->Key Bindings - Default`.
